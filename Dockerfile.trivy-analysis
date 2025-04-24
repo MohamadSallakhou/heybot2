@@ -8,3 +8,4 @@ COPY trivy_output.json /app/trivy_output.json
 EXPOSE 7861
 
 CMD ["python", "mcp_server/mcp_server.py"]
+
